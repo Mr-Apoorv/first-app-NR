@@ -2,7 +2,6 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "First app from Namaste react course",
-  "main": "app.js",
   "scripts": {
     "test": "jest"
   },
@@ -23,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/Mr-Apoorv/first-app-NR/issues"
   },
-  "homepage": "https://github.com/Mr-Apoorv/first-app-NR#readme"
+  "homepage": "https://github.com/Mr-Apoorv/first-app-NR#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
